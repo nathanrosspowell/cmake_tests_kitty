@@ -9,5 +9,7 @@ int main()
 	auto color = Black{};
 	auto kitty = Bengal(color);
 
+	std::cout << kitty.GetName() << " is " << kitty.GetColorName() << std::endl;
+
 	return 0;
 }

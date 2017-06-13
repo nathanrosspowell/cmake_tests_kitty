@@ -10,6 +10,10 @@ public:
 	{
 	}
 
+	const char* GetName() const;
+	const char* GetColorName() const;
+	int GetColorRGB() const;
+
 private:
 
 	const char* const m_colorName;
