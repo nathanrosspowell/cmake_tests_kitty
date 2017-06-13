@@ -6,12 +6,12 @@ public:
 	template<class COLOR>
 	Bengal(const COLOR& color)
 		: m_colorName(color.ToString())
-		, m_colorRBG(color.ToRBG())
+		, m_colorRGB(color.ToRGB())
 	{
 	}
 
 private:
 
 	const char* const m_colorName;
-	int m_colorRBG;
+	int m_colorRGB;
 };

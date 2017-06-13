@@ -1,0 +1,4 @@
+[submodule "colors"]
+	path = colors
+	url = https://github.com/nathanrosspowell/cmake_tests_colors.git
+	ignore = dirty
