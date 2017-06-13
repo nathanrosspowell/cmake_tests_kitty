@@ -4,9 +4,10 @@ cmake_minimum_required(VERSION 3.7)
 #set(cmake_cxx_compiler "clang++-4.0")
 
 project(kitty)
-enable_testing()
 
 add_subdirectory(colors)
+
+enable_testing()
 
 add_library(kitty_lib
 	#"include/kitty/shorthair.h"
