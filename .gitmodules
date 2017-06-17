@@ -2,3 +2,7 @@
 	path = colors
 	url = https://github.com/nathanrosspowell/cmake_tests_colors.git
 	ignore = dirty
+[submodule "helpers"]
+	path = helpers
+	url = https://github.com/nathanrosspowell/cmake_helpers.git
+    ignore = dirty
