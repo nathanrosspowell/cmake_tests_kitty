@@ -5,4 +5,4 @@
 [submodule "helpers"]
 	path = helpers
 	url = https://github.com/nathanrosspowell/cmake_helpers.git
-    ignore = dirty
+	ignore = dirty
